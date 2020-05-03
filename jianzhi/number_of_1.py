@@ -22,7 +22,7 @@ class Solution:
     def NumberOf1(self, n):
         # write code here
         count = 0
-        while n&0xffffffff != 0:
+        while n & 0xffffffff != 0:
             count = count + 1
             n = (n - 1) & n
         return count

@@ -25,6 +25,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 """
 
 
+# 暴力法
 class Solution:
     roman_dict = {
         "I": 1,
@@ -64,5 +65,6 @@ class Solution:
             res = res + self.roman_dict[s[i]]
             i = i + 1
         return res
+
 
 print(Solution().romanToInt("MCDLXXVI"))

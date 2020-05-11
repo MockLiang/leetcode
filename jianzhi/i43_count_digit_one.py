@@ -19,13 +19,18 @@
 
 
 class Solution:
+    # 个人法
+    # def countDigitOne(self, n: int) -> int:
+    #     res = 0
+    #     for i in range(n + 1):
+    #         a, b = divmod(i, 10)
+    #         count_a, count_b = str(a), str(b)
+    #         res = res + count_a.count('1') + count_b.count('1')
+    #     return res
+
+    # 
     def countDigitOne(self, n: int) -> int:
-        res = 0
-        for i in range(n + 1):
-            a, b = divmod(i, 10)
-            count_a, count_b = str(a), str(b)
-            res = res + count_a.count('1') + count_b.count('1')
-        return res
+
 
 
 print(Solution().countDigitOne(12))

@@ -1,8 +1,8 @@
 '''
 @Author: your name
 @Date: 2020-05-10 00:47:07
-@LastEditTime: 2020-05-10 00:56:04
-@LastEditors: your name
+@LastEditTime: 2020-05-10 00:56:35
+@LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /leetcode/algorithm/p151_reverse_words.py
 '''

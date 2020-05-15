@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-06 04:26:37
-@LastEditTime: 2020-05-07 04:53:51
+@LastEditTime: 2020-05-15 12:20:50
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /leetcode/jianzhi/i32_level_order.py
@@ -19,7 +19,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[int]:
+    def levelOrder(self, root: TreeNode):
         if root is None:
             return []
 
@@ -33,4 +33,3 @@ class Solution:
             if curr_node.right:
                 q.append(curr_node.right)
         return res
-

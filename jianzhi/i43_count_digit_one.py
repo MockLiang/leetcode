@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-07 05:11:24
-@LastEditTime: 2020-05-07 05:17:12
+@LastEditTime: 2020-05-15 12:21:00
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /leetcode/jianzhi/i43_count_digit_one.py
@@ -30,7 +30,6 @@ class Solution:
 
     # 
     def countDigitOne(self, n: int) -> int:
-
 
 
 print(Solution().countDigitOne(12))

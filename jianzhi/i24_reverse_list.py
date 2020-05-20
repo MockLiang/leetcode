@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-06 04:09:18
-@LastEditTime: 2020-05-06 04:25:06
+@LastEditTime: 2020-05-20 23:24:28
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /leetcode/jianzhi/i24_reverse_list.py
